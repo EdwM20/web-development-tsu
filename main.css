@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+}
+.header{
+	margin-top: 2%;
+	width: 94%;
+	height: 50px;
+	background-color: #9ACD32;
+	display: inline-block;
+	
+}
+.menu{
+	margin-top: 2%;
+	display: inline-block;
+    width: 27%;
+	height: 200px;
+	background-color: #1E90FF;
+	margin-right: 2%;
+
+}
+.content {
+	margin-top: 2%;
+	margin-left: 3px;
+	display: inline-block;
+    width: 65%;
+	height: 200px;
+	background-image: url(images/peak.jpg);
+
+}
+	
+@media (min-width: 300px) and (max-width: 600px){
+	.content {
+		width: 95%;
+	}
+	.menu {
+		width: 95%;
+	}
+}
